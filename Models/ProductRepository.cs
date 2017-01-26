@@ -20,7 +20,6 @@ namespace CEDR.WebAPI.Models
         /// <returns></returns>  
         internal Product Create()
         {
-            
             Product product = new Product
             { 
                 ReleaseDate = DateTime.Now
